@@ -1,0 +1,52 @@
+.Header {
+    background-color: #23252b;
+    height: 3.75rem;
+    justify-content: center;
+    display: flex;
+    white-space: nowrap;
+}
+
+.Header a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    transition: 200ms;
+}
+
+.Header a:hover {
+    color: #FF6347;
+}
+
+.Header-Logo {
+    display: flex;
+    color: #FF6347;
+    transition: 250ms;
+    flex: 0 1 12rem;
+}
+
+.Header-Logo img {
+    margin: auto 0.5rem;
+    height: 40px;
+}
+
+.Header-Logo h1 {
+    margin: auto 0;
+    font-size: 1.5rem;
+    height: inherit;
+}
+
+.Header-Logo:hover {
+    color: #FFFFFF
+}
+
+.Header-Content {
+    flex: 0 1 60rem;
+    margin: auto 0;
+    padding-left: 1rem;
+}
+
+.Header-Login {
+    margin: auto 0;
+}
