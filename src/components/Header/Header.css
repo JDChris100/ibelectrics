@@ -7,7 +7,7 @@
 }
 
 .Header a {
-    color: #FFFFFF;
+    color: #DADADA;
     font-weight: bold;
     text-decoration: none;
     padding-left: 0.5rem;
@@ -16,7 +16,7 @@
 }
 
 .Header a:hover {
-    color: #FF6347;
+    color: #FFFFFF;
 }
 
 .Header-Logo {
@@ -35,10 +35,7 @@
     margin: auto 0;
     font-size: 1.5rem;
     height: inherit;
-}
-
-.Header-Logo:hover {
-    color: #FFFFFF
+    color: #FF6347;
 }
 
 .Header-Content {
