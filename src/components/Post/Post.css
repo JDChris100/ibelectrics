@@ -1,0 +1,40 @@
+.Post {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin: 2px;
+}
+
+.Post-Images {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.Post-Images-primary {
+    height: 70%;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Post-Images-secondary {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Content{
+    width: 1200px;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
